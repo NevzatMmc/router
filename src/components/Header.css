@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.header__logo {
+  width: 280px;
+  max-width: 80vw;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.header__title {
+  font-family: 'Abnes', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5em;
+  margin-bottom: 0.25rem;
+}
+
+.header__subtitle {
+  font-family: 'Abnes', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: 200px;
+  }
+
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .header__subtitle {
+    font-size: 0.7rem;
+  }
+}
