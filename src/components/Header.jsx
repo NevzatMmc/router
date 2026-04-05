@@ -9,11 +9,6 @@ export default function Header() {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-      <img
-        src="/assets/logo-full.png"
-        alt="PFT Logo"
-        className="header__logo"
-      />
       <h1 className="header__title">PFT</h1>
       <p className="header__subtitle">POISON FINANCIAL TECHNOLOGIES</p>
     </motion.header>
