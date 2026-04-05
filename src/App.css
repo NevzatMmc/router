@@ -30,7 +30,9 @@
   );
 }
 
-.app > *:not(.app__gradient) {
+.app > header,
+.app > section,
+.app > footer {
   position: relative;
   z-index: 1;
 }
