@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Abnes';
-  src: url('/fonts/abnes.woff2') format('woff2'),
-       url('/fonts/abnes.ttf') format('truetype');
+  src: url('/fonts/abnes.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url('/fonts/coolvetica.woff2') format('woff2'),
-       url('/fonts/coolvetica.otf') format('opentype');
+  src: url('/fonts/coolvetica.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
