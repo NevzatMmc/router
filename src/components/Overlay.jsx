@@ -79,6 +79,8 @@ export default function Overlay({ isOpen, onClose, dashboard }) {
 
             <motion.a
               href={dashboard.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="overlay__btn"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
